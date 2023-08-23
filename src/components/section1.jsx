@@ -15,7 +15,6 @@ function Section1() {
                 </div>
 
                 <section className="section-1">
-                
                     <Socials /> 
 
                     <div className="main row">

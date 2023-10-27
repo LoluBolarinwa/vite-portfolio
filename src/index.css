@@ -513,6 +513,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   font-family: 'Nunito', sans-serif;
   font-size: 1.1rem;
   color:  rgb(254, 254, 255);
+  color: #d6e8fa;
   letter-spacing: 1px;
   height: auto;
   padding: 35px;
@@ -520,7 +521,7 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
 
   text-align: justify;
   font-family: 'Nunito', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   
   /* letter-spacing: 1px; */
   
@@ -603,7 +604,7 @@ h1{
 .project-img{
   width: 100%;
   height: 100%;
-  background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center;
+  /* background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center; */
   /* background-size:100%; */
   background-size: cover;
   background-position: center center;
@@ -618,13 +619,34 @@ h1{
 /* background-color:#ff9900; */
 }
 
+.img-project{
+  width: 100%;
+  height: 100%;
+  background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center;
+  /* background-size:100%; */
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  cursor: pointer;
+  border-radius: 10px;
+  outline: #b7d8fb 1px solid;
+}
+
 .project-img:hover{
   transform: translateY(-3px);
 }
 
 .project-description{
-  color: #b7d8fb;
+  /* color: #b7d8fb; */
+  /* font-size: .8rem; */
+  font-size: 0.8rem;
+  color: #d6e8fa;
   width: 40%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  color:  rgb(254, 254, 255);
+  color: #d6e8fa;
+  letter-spacing: 1px;
   /* background-color: red; */
   /* margin: 7rem 0 0 5rem ; */
   /* margin: 0;

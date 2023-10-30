@@ -518,9 +518,8 @@ background: linear-gradient(90deg, rgba(13,69,102,1) 0%, rgba(8,32,48,1) 70%); *
   padding: 35px;
   padding-top: 8px;
 
-  text-align: justify;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.1rem;
+  text-align: left;
+  font-size: 0.9rem;
   
   /* letter-spacing: 1px; */
   
@@ -548,14 +547,14 @@ h1{
   /* padding: 20px; */ /*center project content*/
 }
 
-.project-descriptionnnnnnnn{
+/* .project-descriptionnnnnnnn{ */
   /* padding: 7px 5px ; */
   /* padding-left: 5px; */
   /* padding-top:20px; */
   /*dding-right: 20px; */
 /* font-size: 2*/
   
-}
+/* } */
 /* NOT IN USE */
 
 
@@ -603,6 +602,58 @@ h1{
 .project-img{
   width: 100%;
   height: 100%;
+  /* background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center; */
+  /* background-size:100%; */
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  cursor: pointer;
+  border-radius: 10px;
+  outline: #b7d8fb 1px solid;
+  /* float: left; */
+  /* display: flex;*/
+    /* flex-wrap: wrap;  */
+  /* margin-right: 20px; */
+background-color:#ff9900;
+}
+
+.img-1{
+  width: 100%;
+  height: 100%;
+  background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center;
+  /* background-size:100%; */
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  cursor: pointer;
+  border-radius: 10px;
+  outline: #b7d8fb 1px solid;
+  /* float: left; */
+  /* display: flex;*/
+    /* flex-wrap: wrap;  */
+  /* margin-right: 20px; */
+/* background-color:#ff9900; */
+}
+.img-2{
+  width: 100%;
+  height: 100%;
+  background: url(/src/assets/3\ ezgif-5-1ba6ea9c67.gif) no-repeat center center;
+  /* background-size:100%; */
+  background-size: cover;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  cursor: pointer;
+  border-radius: 10px;
+  outline: #b7d8fb 1px solid;
+  /* float: left; */
+  /* display: flex;*/
+    /* flex-wrap: wrap;  */
+  /* margin-right: 20px; */
+/* background-color:#ff9900; */
+}
+.img-3{
+  width: 100%;
+  height: 100%;
   background: url(/src/assets/rsz_6536f7a0b2700.png) no-repeat center center;
   /* background-size:100%; */
   background-size: cover;
@@ -618,7 +669,7 @@ h1{
 /* background-color:#ff9900; */
 }
 
-.project-img:hover{
+.img-hover{
   transform: translateY(-3px);
 }
 
@@ -629,12 +680,33 @@ h1{
   /* margin: 7rem 0 0 5rem ; */
   /* margin: 0;
   padding: 0; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  color:  #e9f2fc;
+  letter-spacing: 1px;
+  height: auto;
+  padding: 35px;
+  padding-top: 8px;
+
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+  
 }
 .project-description h3{
-  margin: 7rem 1rem 0;
+  margin: 3rem 0rem 0;
+  color:#ff9900;
+
+  /* background-color: #ff9900; */
+
 }
 .project-description p{
-  margin: 0 1rem;
+  /* width: 100%; */
+  margin: 0 0rem;
+  text-align: left;
+
+  /* background-color: navajowhite; */
+
 }
 /* 
 .fade-in{
